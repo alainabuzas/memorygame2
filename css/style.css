@@ -6,7 +6,7 @@ body {
 
 h1 {
 	font-family: "Raleway", sans-serif;
-	color: #0D2C40;
+	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
@@ -34,11 +34,11 @@ a {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
-	border-bottom: 2px solid transparent;
+	text-decoration: none;
 }
 
 a:hover {
-	border: white;
+	color: #0D2C40;
 }
 
 h5 {
@@ -77,16 +77,16 @@ main {
 	margin: 35px auto 35px auto;
 }
 
-.card {
-	margin: 40px 8px 0 8px;
+.space-fix {
+	margin: 8px;
 }
 
 footer {
 	text-transform: uppercase;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #0D2C40;
-	color: white;
+	background-image: url(../images/cuadros.png);
+	color: #0D2C40;
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
@@ -113,5 +113,5 @@ footer {
 
 .name {
 	color: #F15B31;
-	font-weight: 700;
+	font-weight:700;
 }

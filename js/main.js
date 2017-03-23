@@ -31,7 +31,7 @@ var checkForMatch = function () {
   } else {
       alert("Sorry, no match! Refresh the page to try again.");
   } 
-}
+};
 
 var flipCard = function () {
 	var cardId = this.getAttribute('data-id');
@@ -48,9 +48,10 @@ var createBoard = function () {
 	var cardElement = document.createElement('img');
 	cardElement.setAttribute('src', 'images/back.png');
 	cardElement.setAttribute('data-id', i);
+	cardElement.setAttribute('class', 'space-fix');
 	cardElement.addEventListener('click', flipCard);
 	document.getElementById('game-board').appendChild(cardElement);
 	}
-}
+};
 
 createBoard ();
